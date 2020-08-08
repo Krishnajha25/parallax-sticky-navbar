@@ -10,7 +10,7 @@ document.addEventListener('scroll', function(){
     title.style.marginBottom = value * 2 + 'px'
     if(value >= 150){
         nav.classList.add('fixed')
-        // logo.classList.remove('navLogo')
+        logo.classList.remove('navLogo')
         logo.classList.add('modifiedLogo')
         for (let i = 0; i < menus.length; i++) {
             menus[i].classList.add('menu-list-dark')
